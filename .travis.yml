@@ -8,11 +8,11 @@ install:
   - pip install flask
 
 
-#script:
-#  - python routes.py
-#  - html template.html
-#  - html log.html
-#  - html hello.html
-#  - html aboutme.html
-#  - html home.html
-#  - html welcome.html
+script:
+  - python routes.py
+  - html template.html
+  - html log.html
+  - html hello.html
+  - html aboutme.html
+  - html home.html
+  - html welcome.html
