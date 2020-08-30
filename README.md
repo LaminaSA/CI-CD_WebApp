@@ -1,4 +1,4 @@
-#Simple Web app for CI/CD pipeline
+# Simple Web app for CI/CD pipeline
 ---
 ### Introduction to Flask
 ---
