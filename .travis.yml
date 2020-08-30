@@ -4,6 +4,7 @@ python:
 html:
   - "5"
 
+cache: pip
 
 
 #script:
