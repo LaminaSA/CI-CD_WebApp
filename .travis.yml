@@ -1,18 +1,9 @@
+os:
+  - linux
+
+dist: xenial
+
 language: python
-python:
-  - "3.8"
-html:
-  - "5"
-
-install:
-  - pip install flask
-
 
 script:
-  - python routes.py
-  - html template.html
-  - html log.html
-  - html hello.html
-  - html aboutme.html
-  - html home.html
-  - html welcome.html
+  - python -m pytest -v

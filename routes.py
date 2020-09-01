@@ -33,6 +33,9 @@ def log():
             return redirect(url_for('hello'))
     return render_template('log.html', error=error)
 
+@app.route('/test')
+def test():
+    return "Works!"
 
 if __name__ == '__main__':
     app.run()
