@@ -1,14 +1,14 @@
 # Simple Web app for CI/CD pipeline
 
 ### Introduction to Flask
--
+---
 
 Flask is a lightweight, micro web development framework for Python. Compared to the higher-level frameworks, it’s much more flexible and, best of all, it doesn’t get in your way as you’re building out your web site. You can add complexity as your application grows. It’s great for beginners who want to better understand the shortcuts that larger, high-level web frameworks employ.
 
 This repository also utilises a navbar from Bootstrap which I inherit with extends to make it available throughout the website
 
 ### Travis CI
--
+---
 [![Build Status](https://travis-ci.org/LaminaSA/CI-CD_WebApp.svg?branch=master)](https://travis-ci.org/LaminaSA/CI-CD_WebApp)
 
 Travis CI is a continuous integration service used to build and test projects hosted on version control repositories (github in this case). I chose to use Travis CI to run my integration tests on this project because of its ease of use.
