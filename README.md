@@ -7,9 +7,9 @@ Flask is a lightweight, micro web development framework for Python. Compared to 
 
 This repository also utilises a navbar from Bootstrap which I inherit with extends to make it available throughout the website
 
-### Travis CI
+### Travis CI [![Build Status](https://travis-ci.org/LaminaSA/CI-CD_WebApp.svg?branch=master)](https://travis-ci.org/LaminaSA/CI-CD_WebApp)
 ---
-[![Build Status](https://travis-ci.org/LaminaSA/CI-CD_WebApp.svg?branch=master)](https://travis-ci.org/LaminaSA/CI-CD_WebApp)
+
 
 Travis CI is a continuous integration service used to build and test projects hosted on version control repositories (github in this case). I chose to use Travis CI to run my integration tests on this project because of its ease of use.
 
