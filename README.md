@@ -76,5 +76,29 @@ Jenkins offers a simple way to set up a continuous integration or continuous del
 
 4) Next paste the IP of your master EC2 instance into your browser with xxx..xx.xxx:8080
 
- ![Unlock](unlockjenkins)
+     ![Unlock](unlockjenkins.png)
+ 
+5) Then go into `sudo su`
 
+    - `cat /var/lib/jenkins/secrets/initialAdminPassword`
+    - this reveals the password the website is asking for
+
+6) Install selected plugins
+
+7) Create admin user
+
+### Agent node
+
+1. create agent
+2. /opt/jenkins
+3. Manage Jenkins → configure system → in Jenkins URL, enter new BOSS ip
+4. code in sudo su of agent instance `java -jar agent.jar -jnlpUrl http://54.194.183.13:8080/computer/AgentNode/slave-agent.jnlp -secret fd5116e1d38848f3ee704de6044c5b01ac3c17236dab0b420ed5eae457e8a548 -workDir "/opt/jenkins"`
+    - make sure IP is the same as current boss ip
+    
+### Plugins (for CD job)
+
+Docker Pipeline
+
+SSH Agent
+
+Generic Web-hooks
